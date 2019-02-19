@@ -1,0 +1,20 @@
+Title Page
+duh, make a title page
+have the options be : (play game)(options)(exit with shame)
+hide satanic artifacts in the options menu
+
+Enemies
+Implement gradual deployment of Vargs (enemies). Starting with very few slow enemies and progressing to many faster enemies as score
+increases
+
+PLayer
+create animation on 'death' of player
+
+Kitchen Knife 
+change kitchen knife avatar to a kitchen knife
+deploy kitchen knife only after score reaches 666
+if kitchen knife if obtained by player then transfrom all on screen enemies and have those sprites target the center of the player rect
+
+Game Over Scene
+add 8-bit Burzum music to the scene
+add animated fire pillars or some kind of fire somewhere
