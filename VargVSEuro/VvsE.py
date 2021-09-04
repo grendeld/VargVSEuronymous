@@ -75,8 +75,8 @@ class enemy(pygame.sprite.Sprite):
         if self.rect.top > screenHEIGHT + 5:
             self.rect.center = (random.randint(45, screenWIDTH - 45), -45)
             self.enemySpeed = random.randint(1, 5)
-            '''global countScore
-            countScore += 6'''
+            global countScore
+            countScore += 6
 
 
 
@@ -166,7 +166,7 @@ for i in range(8):  # this works but will need to iterate
 
 print(os.path.join(aud_folder, 'Mysteriis.wav'))
 pygame.mixer.music.load(os.path.join(aud_folder, 'Mysteriis.ogg'))
-#pygame.mixer.music.play(loops = -1)
+pygame.mixer.music.play(loops = -1)
 
 ###GAME LOOP###
 GAME_OVER = False
